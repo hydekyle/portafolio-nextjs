@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>FreeGalaga</title>
+  <link rel="shortcut icon" href="./TemplateData/favicon.ico">
+  <link rel="stylesheet" href="./TemplateData/style.css">
+</head>
+
+<body>
+  <div id="unity-fullscreen-button" style="display: none;"></div>
+
+  <div id="unity-container" class="unity-desktop">
+    <canvas id="unity-canvas" style="padding: 0px; position: absolute; height:100%; width:100%;"></canvas>
+  </div>
+  <div id="loading-cover" style="display:none;">
+    <div id="unity-loading-bar">
+      <div id="unity-logo"><img src="yourlogo.png"></div>
+      <div id="unity-progress-bar-empty" style="display: none;">
+        <div id="unity-progress-bar-full"></div>
+      </div>
+      <div class="spinner"></div>
+    </div>
+  </div>
+</body>
+
+<!-- Tu configuración -->
+<script>
+  document.cookie = "ALIAS=Invitado";
+  const gameURL = 'https://www.paloaltonetworks.com.mx/cyber_defense/';
+  const openInformation = () => window.open("https://www.github.com/hydekyle", "_blank");
+  const gameover = () => window.open(gameURL + "gameover.php", "_self");
+</script>
+
+
+<!-- Compartir en Facebook -->
+<!-- <script>
+  window.fbAsyncInit = function () {
+    FB.init({
+      appId: '670721590279787',
+      autoLogAppEvents: true,
+      xfbml: true,
+      version: 'v9.0'
+    });
+  };
+
+  function compartirEnFacebook(puesto, puntos) {
+    FB.ui({
+      method: 'share',
+      href: gameURL,
+      quote: `¡Voy en ${puesto}º puesto con ${puntos} puntos!`,
+    }, function (response) { });
+  }
+</script> -->
+<!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script> -->
+
+<!-- Unity Loader -->
+<script>
+  const hideFullScreenButton = "";
+  const buildUrl = "Build";
+  const loaderUrl = buildUrl + "/4e0907df918b1402e7fac83925b63653.js";
+  const config = {
+    dataUrl: buildUrl + "/2b52ec5315fb0d9561a09cb1ae98d6e1.data",
+    frameworkUrl: buildUrl + "/4e05d7d4ae71b9927809521fb5403915.js",
+    codeUrl: buildUrl + "/39ab73b3f9262f5d1e5431fc057f4eef.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+    companyName: "DefaultCompany",
+    productName: "FreeGalaga",
+    productVersion: "1.0",
+  };
+
+  const container = document.querySelector("#unity-container");
+  const canvas = document.querySelector("#unity-canvas");
+  const loadingCover = document.querySelector("#loading-cover");
+  const progressBarEmpty = document.querySelector("#unity-progress-bar-empty");
+  const progressBarFull = document.querySelector("#unity-progress-bar-full");
+  const fullscreenButton = document.querySelector("#unity-fullscreen-button");
+  const spinner = document.querySelector('.spinner');
+
+  const canFullscreen = (function () {
+    for (const key of [
+      'exitFullscreen',
+      'webkitExitFullscreen',
+      'webkitCancelFullScreen',
+      'mozCancelFullScreen',
+      'msExitFullscreen',
+    ]) {
+      if (key in document) {
+        return true;
+      }
+    }
+    return false;
+  }());
+
+  if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+    container.className = "unity-mobile";
+    config.devicePixelRatio = 1;
+  }
+  loadingCover.style.display = "";
+
+  const script = document.createElement("script");
+  script.src = loaderUrl;
+  let unityInstance;
+  script.onload = () => {
+    createUnityInstance(canvas, config, (progress) => {
+      spinner.style.display = "none";
+      progressBarEmpty.style.display = "";
+      progressBarFull.style.width = `${100 * progress}%`;
+    }).then((uInstance) => {
+      unityInstance = uInstance;
+      loadingCover.style.display = "none";
+      if (canFullscreen) {
+        if (!hideFullScreenButton) {
+          fullscreenButton.style.display = "";
+        }
+        fullscreenButton.onclick = () => {
+          uInstance.SetFullscreen(1);
+        };
+      }
+    }).catch((message) => {
+      alert(message);
+    });
+  };
+  document.body.appendChild(script);
+</script>
+</body>
+
+</html>
