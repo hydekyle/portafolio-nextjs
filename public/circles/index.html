@@ -13,13 +13,13 @@
     <div id="unityContainer" style="width: 100%; height: 100%; margin: auto"></div>
   </body>
 
+  <script src="jquery-3.5.1.min.js"></script>
+
   <script>
-    const myElement = document.getElementById("unityContainer");
-    console.log(myElement)
-    for (let i = 0; i < myElement.children.length; i++) {
-      myElement.children[i].click()
-    }
-    unityInstance.SetFullscreen(1);
+    setTimeout(() => {
+      $("#unityContainer").find("button").click();  
+    }, 2000)
+    
   </script>
 
   <script>
