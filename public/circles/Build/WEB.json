@@ -1,7 +1,7 @@
 {
-"companyName": "DefaultCompany",
-"productName": "Rocket",
-"productVersion": "0.1",
+"companyName": "Ayozev",
+"productName": "Tap Surfer",
+"productVersion": "0.2",
 "dataUrl": "WEB.data.unityweb",
 "wasmCodeUrl": "WEB.wasm.code.unityweb",
 "wasmFrameworkUrl": "WEB.wasm.framework.unityweb",
