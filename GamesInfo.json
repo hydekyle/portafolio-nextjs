@@ -1,6 +1,26 @@
 {
     "games": [
         {
+            "title": "Tap Surfers",
+            "iconURL": "https://i.ibb.co/0ysTPf3/Icon512.jpg",
+            "description": "Juego WEBGL y para Android, la idea era hacer un juego ultra-casual en el menor tiempo posible. Tomó 4 días de desarrollo.",
+            "link": "https://play.google.com/store/apps/details?id=com.Ayozev.Surfer",
+            "photos": [
+                {
+                    "src": "https://i.ibb.co/k6yv4D1/00.png",
+                    "altText": "Tap Surfers game play"
+                },
+                {
+                    "src": "https://i.ibb.co/LhBgdhf/02.png",
+                    "altText": "Tap Surfers collect coins"
+                },
+                {
+                    "src": "https://i.ibb.co/0sdz8by/01.png",
+                    "altText": "Tap Surfers dodge bullets"
+                }
+            ]
+        },
+        {
             "title": "Cyber Invader",
             "iconURL": "https://i.ibb.co/cJX4Kw2/Boss-Lucifer.png",
             "description": "Juego WEBGL tipo shoot'em up al más puro estilo retro, en la versión del cliente cada jugador tiene 3 intentos para alcanzar la máxima puntuación posible y ganar premios.",
