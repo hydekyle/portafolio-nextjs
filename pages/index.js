@@ -113,13 +113,12 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          <b>5 MAGNIFICOS</b><br/>
+          <b>APP Fantasy Football</b><br/>
           <Paragraph>
-          Aplicación/Juego para IOS y Android, consiste en formar un equipo de 5 jugadores del
-          Real Zaragoza y consigues puntos según su puntuación en los partidos de La Liga.
-          El proyecto utiliza Firebase Functions para consumir datos de la API cada minuto
-          y guarda los datos para que el cliente pueda ver el progreso
-          tanto en vivo como de los últimos partidos.
+          Aplicación/Juego para IOS y Android, consiste en formar un equipo de 5 jugadores de
+          un equipo de fútbol y consigues puntos según su puntuación en los partidos de La Liga.
+          El proyecto utiliza Firebase Functions para consumir datos de la API cada minuto y
+          ver los resultados en vivo.
           </Paragraph>
         </BioSection>
         <BioSection>

@@ -24,18 +24,18 @@ const Works = () => (
     </Heading>
 
     <Heading as="h3" fontSize={20} align="center" my={6}>
-        5 MAGNIFICOS
+        Fantasy Football
     </Heading>
       
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem title="Pantalla principal" thumbnail={magnificos_screen1}>
-            Aquí puedes modificar tu equipo y ver las estadísiticas de los jugadores del partido en la tabla.
+            Aquí puedes modificar tu equipo de forma dinámica y ver las estadísiticas actualizadas de los jugadores en la tabla.
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem title="Estadisticas" thumbnail={magnificos_screen2}>
-            Puedes consultar las estadísiticas de un jugador concreto y observar su rendimiento.
+            Puedes consultar las estadísiticas de un jugador concreto y observar su rendimiento en gráficas animadas.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
