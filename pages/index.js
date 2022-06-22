@@ -73,7 +73,7 @@ const Home = () => (
           En cuanto a desarrollo web, me 
           manejo con soltura con <b>Wordpress</b> y <b>React</b>.<br/>
           Trabajo como Freelancer y en mi tiempo libre estoy desarrollando un videojuego
-          basado en NFT.<br/>
+          para Realidad Virtual.<br/>
           También tengo capacidades para la 
           creación y post-producción de contenido audiovisual 
           con herramientas Adobe.
@@ -101,12 +101,20 @@ const Home = () => (
           Experiencia Laboral
         </Heading>
         <BioSection>
+          <BioYear>2022</BioYear>
+          <b>APP Precio Luz Básico</b><br/>
+          <Paragraph>
+          Aplicación para IOS y Android nativa, consulta el precio de la luz en un vistazo con un diseño simple y responsivo.
+          Utiliza arquitectura MVC+s, reactividad con GetX y gráficos de FLChart.
+          </Paragraph>
+        </BioSection>
+        <BioSection>
           <BioYear>2021</BioYear>
           <b>BATTLE DERBY</b><br/>
           <Paragraph>
           Estuve presente 3 meses como junior en Tripe-O Games en el final del desarrollo, 
           principalmente integrando y configurando servicios externos en Unity como Photon Quantum, 
-          PlayFab y servicios de AWS (lambda functions y cognito).<br/>
+          PlayFab y servicios de AWS (lambda functions y cognito).
           También hice varias aportaciones en el juego como la animación de la moneda al recogerla,
           parte del tutorial y la serialización y generación de objetos en el mapa en Photon Quantum.
           </Paragraph>
@@ -115,10 +123,9 @@ const Home = () => (
           <BioYear>2021</BioYear>
           <b>APP Fantasy Football</b><br/>
           <Paragraph>
-          Aplicación/Juego para IOS y Android, consiste en formar un equipo de 5 jugadores de
+          Aplicación/Juego de tipo Fantasy Football de apuestas deportivas, consiste en formar un equipo de 5 jugadores de
           un equipo de fútbol y consigues puntos según su puntuación en los partidos de La Liga.
-          El proyecto utiliza Firebase Functions para consumir datos de la API cada minuto y
-          ver los resultados en vivo.
+          El proyecto utiliza Firebase Functions para consumir datos de la API cada minuto y actualiza los resultados en vivo.
           </Paragraph>
         </BioSection>
         <BioSection>

@@ -4,8 +4,9 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import magnificos_screen1 from '../public/images/works/magnificos1.jpg'
 import magnificos_screen2 from '../public/images/works/magnificos2.jpg'
+import luz_screen1 from '../public/images/works/luz1.png'
+import luz_screen2 from '../public/images/works/luz2.png'
 import GameDisplayer from '../components/game-displayer'
-import Image from 'next/image'
 
 const Works = () => (
   <Layout title="Portafolio">
@@ -19,13 +20,13 @@ const Works = () => (
     <GameDisplayer></GameDisplayer>
 
     <Container>
-    <Heading as="h3" fontSize={20} align="center" textColor="teal" mt={10} mb={6}>
-        Aplicaciones Flutter
-    </Heading>
+      <Heading as="h3" fontSize={20} align="center" textColor="teal" mt={10} mb={6}>
+          Aplicaciones Flutter
+      </Heading>
 
-    <Heading as="h3" fontSize={20} align="center" my={6}>
-        Fantasy Football
-    </Heading>
+      <Heading as="h3" fontSize={20} align="center" my={6}>
+          Fantasy Football
+      </Heading>
       
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
@@ -39,6 +40,24 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
+
+      <Heading as="h3" fontSize={20} align="center" my={6}>
+          Precio Luz Básico
+      </Heading>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem title="Gráfico simple" thumbnail={luz_screen1}>
+            Consulta la variación de precios actualizada al día, representación del máximo y mínimo.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem title="Día y Noche" thumbnail={luz_screen2}>
+            Gráfico circular alternativo para facilitar la visualización del precio de la luz por el día y por la noche.
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
     </Container>
   </Layout>
 )
