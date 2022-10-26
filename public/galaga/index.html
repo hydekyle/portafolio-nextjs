@@ -25,7 +25,12 @@
       <div class="spinner"></div>
     </div>
   </div>
+  <button onclick = startRecording()>Start recording</button>
+  <button onclick = stopRecording()>Stop</button>
 </body>
+
+<script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+<script src="https://www.webrtc-experiment.com/screenshot.js"></script>
 
 <!-- Tu configuración -->
 <script>
@@ -33,6 +38,33 @@
   const gameURL = 'https://www.paloaltonetworks.com.mx/cyber_defense/';
   const openInformation = () => window.open("https://www.github.com/hydekyle", "_blank");
   const gameover = () => window.open(gameURL + "gameover.php", "_self");
+  var recorder;
+
+  function startRecording()
+  {
+    var canvas = document.getElementById("unity-canvas");
+    recorder = RecordRTC(canvas, {
+      type: 'canvas',
+      showMousePointer: false
+    });
+    recorder.startRecording();
+  }
+
+  function stopRecording()
+  {
+    recorder.stopRecording(function(url) {
+      var blob = recorder.getBlob();
+      var video = document.createElement('video');
+      video.src = URL.createObjectURL(blob);
+      video.setAttribute('style', 'height: 100%; position: absolute; top:0;');
+      var body = document.querySelector('body');
+      body.innerHTML = '';
+      body.appendChild(video);
+      video.controls = true;
+      video.play();
+    });
+  }
+  
 </script>
 
 
