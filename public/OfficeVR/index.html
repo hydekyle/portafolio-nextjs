@@ -105,7 +105,7 @@
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
-          unityLoader.compatibilityCheck=function(e,t,r){t();};
+          unityInstance.compatibilityCheck=function(e,t,r){t();};
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
