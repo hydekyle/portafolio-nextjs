@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Kanara</title>
+    <title>Unity WebGL Player | Kanara Sports View</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Kanara</div>
+        <div id="unity-build-title">Kanara Sports View</div>
       </div>
     </div>
     <script>
@@ -56,14 +56,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Barcos.loader.js";
+      var loaderUrl = buildUrl + "/Build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Barcos.data",
-        frameworkUrl: buildUrl + "/Barcos.framework.js",
-        codeUrl: buildUrl + "/Barcos.wasm",
+        dataUrl: buildUrl + "/Build.data.unityweb",
+        frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
+        codeUrl: buildUrl + "/Build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "KanaraSports",
-        productName: "Kanara",
+        companyName: "Kanara",
+        productName: "Kanara Sports View",
         productVersion: "0.1.0",
         showBanner: unityShowBanner,
       };
@@ -107,6 +107,7 @@
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
+          myUnityInstance = unityInstance;
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
@@ -125,6 +126,8 @@
 
 <script>
   var recorder;
+  var blob;
+  var myUnityInstance;
 
   function startRecording() {
     var canvas = document.getElementById("unity-canvas");
@@ -137,9 +140,13 @@
 
   function stopRecording() {
     recorder.stopRecording(function() {
-      var blob = recorder.getBlob();
-      invokeSaveAsDialog(blob);
+      blob = recorder.getBlob();
     });
   }
+
+  function saveRecording() {
+    invokeSaveAsDialog(blob);
+  }
+
   
 </script>
