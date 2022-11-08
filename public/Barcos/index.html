@@ -64,7 +64,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Kanara",
         productName: "Kanara Sports View",
-        productVersion: "0.1.0",
+        productVersion: "0.1.1",
         showBanner: unityShowBanner,
       };
 
@@ -107,7 +107,6 @@
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
-          myUnityInstance = unityInstance;
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
