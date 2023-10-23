@@ -186,13 +186,13 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          <b>FULL-STACK DEVELOPER (EOI)</b><br/>
+          <b>CURSO FULL-STACK DEVELOPER (EOI)</b><br/>
           Linux, Git, HTML5, CSS3, Javascript/Typescript, React y Vue, Docker, Cloud Services, DevOps, PHP, NodeJS, bases de datos SQL y NoSQL.
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
-          <b>MICROSOFT SOLUTION DEVELOPER</b><br/>
-          C#, Javascript, jQuery, MySQL, arquitectura MVC y hosting en Microsoft Azure.
+          <b>CURSO MICROSOFT SOLUTION DEVELOPER (FOCAN)</b><br/>
+          ASP.NET, C#, Javascript, jQuery, MySQL, arquitectura MVC y hosting en Microsoft Azure.
         </BioSection>
         <BioSection>
           <BioYear>2015</BioYear>
