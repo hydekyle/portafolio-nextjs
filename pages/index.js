@@ -69,14 +69,14 @@ const Home = () => (
           Sobre mí
         </Heading>
         <Paragraph>
+          Me apasiona el desarrollo de software desde que me propuse crear mi primer videojuego con 13 años.
+          Desde entonces he estado probando distintas tecnologías y afrontando proyectos personales a modo de reto
+          y pasatiempos.<br/><br/>
           Me especializo en <b>Unity3D</b> y <b>Flutter</b>.
-          En cuanto a desarrollo web, me 
-          manejo con soltura con <b>Wordpress</b> y <b>React</b>.<br/>
-          Trabajo como Freelancer y en mi tiempo libre estoy desarrollando un videojuego
+          En cuanto a desarrollo web, me manejo con soltura con <b>Wordpress</b> y <b>React</b>.<br/>
+          Trabajo principalmente como <b>Freelancer</b> y en mi tiempo libre estoy desarrollando un videojuego
           para Realidad Virtual.<br/>
-          También tengo capacidades para la 
-          creación y post-producción de contenido audiovisual 
-          con herramientas Adobe.
+          También tengo capacidades para la creación y post-producción de contenido audiovisual con herramientas <b>Adobe</b>.
         </Paragraph>
       </Section>
 
@@ -101,8 +101,18 @@ const Home = () => (
           Experiencia Laboral
         </Heading>
         <BioSection>
+          <BioYear>2023</BioYear>
+          <b>Velocitech (1 año y 4 meses)</b><br/>
+          <b>Unity Senior Developer & Flutter Developer</b><br/>
+          <Paragraph>
+          Gestión y creación de múltiples proyectos en Unity creando entornos 3D interactivos para museos y tiendas virtuales en WebGL.
+          También participé con el equipo de Flutter durante unos meses, principalmente para integrar responsive design.
+          </Paragraph>
+        </BioSection>
+        <BioSection>
           <BioYear>2022</BioYear>
-          <b>APP Precio Luz Básico</b><br/>
+          <b>Proyecto personal (1 semana)</b><br/>
+          <b>Flutter Mobile APP Precio Luz Básico</b><br/>
           <Paragraph>
           Aplicación para IOS y Android nativa, consulta el precio de la luz en un vistazo con un diseño simple y responsivo.
           Utiliza arquitectura MVC+s, reactividad con GetX y gráficos de FLChart.
@@ -110,17 +120,19 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          <b>BATTLE DERBY</b><br/>
+          <b>Triple-O Games (3 meses)</b><br/>
+          <b>Unity Junior Developer</b><br/>
           <Paragraph>
           Estuve presente 3 meses como junior en Tripe-O Games en el final del desarrollo, 
           principalmente integrando y configurando servicios externos en Unity como Photon Quantum, 
           PlayFab y servicios de AWS (lambda functions y cognito).
           También hice varias aportaciones en el juego como la animación de la moneda al recogerla,
-          parte del tutorial y la serialización y generación de objetos en el mapa en Photon Quantum.
+          parte del tutorial y la serialización y generación de objetos en el mapa con Photon Quantum.
           </Paragraph>
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
+          <b>Freelancer (4 meses)</b><br/>
           <b>APP Fantasy Football</b><br/>
           <Paragraph>
           Aplicación/Juego de tipo Fantasy Football de apuestas deportivas, consiste en formar un equipo de 5 jugadores de
@@ -130,6 +142,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
+          <b>Freelancer (1 mes)</b><br/>
           <b>LEÓNSEPIA APP</b><br/>
           <Paragraph>
           Aplicación para IOS y Android, es un simple port de una web de wordpress a dispositivos móviles.
@@ -138,6 +151,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
+          <b>Freelancer (2 meses)</b><br/>
           <b>CYBER DEFENSE</b><br/>
           <Paragraph>
           Videojuego estilo retro para jugar en WEBGL y compatible con móviles mediante touch.
@@ -146,6 +160,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
+          <b>Freelancer (4 meses)</b><br/>
           <b>EVOLUTION</b><br/>
           <Paragraph>
           Videojuego de combate por turnos en el que consigues piezas aleatorias con las que construyes a tu monstruo.
@@ -159,6 +174,16 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Formación
         </Heading>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          <b>Microsoft Certified: Azure Developer Associate (AZ-204)</b><br/>
+          Certificación oficial de Microsoft que cubre Azure API Management, Azure App Security, Azure App Service, Azure Authentication, Azure Containers, Azure Cosmos DB, Azure Functions, Azure Key Vault, Azure IaaS,  Messaging, Storage.
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          <b>Microsoft Certified: Azure Fundamentals</b><br/>
+          Certificación oficial de Microsoft que cubre Azure, Cloud Data, Cloud Networking, Cloud Security, Cloud Services, Cloud Storage y Virtualización.
+        </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
           <b>FULL-STACK DEVELOPER (EOI)</b><br/>

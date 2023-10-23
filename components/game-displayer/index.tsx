@@ -6,7 +6,7 @@ import {
   CarouselIndicators,
   Button,
 } from "reactstrap";
-import GamesInfoJSON from "../../GamesInfo.json";
+import GamesInfoJSON from "./GamesInfo.json";
 import Loader from "react-loader-spinner";
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -24,15 +24,13 @@ interface GameInfo {
   link: string;
 }
 
-class SerializeHelper {
-  static GetGameInfo(json: string): Array<GameInfo> {
-    var info: Array<GameInfo> = JSON.parse(json)["games"];
-    return info;
-  }
+function GetGameInfoArray(json: string): Array<GameInfo> {
+  var info: Array<GameInfo> = JSON.parse(json)["games"];
+  return info;
 }
 
 export default () => {
-  var games = SerializeHelper.GetGameInfo(JSON.stringify(GamesInfoJSON));
+  var games = GetGameInfoArray(JSON.stringify(GamesInfoJSON));
 
   const [activeGameIndex, setActiveGameIndex] = useState(0);
   const [activeIndex, setActivePhotoIndex] = useState(0);
