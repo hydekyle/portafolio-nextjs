@@ -88,7 +88,7 @@ const Home = () => (
           ¡Puedes ver y probar mis creaciones en mi portafolio digital!
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/portafolio">
+          <NextLink href="/portafolio" legacyBehavior>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Mi portafolio
             </Button>
