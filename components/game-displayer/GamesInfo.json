@@ -7,139 +7,139 @@
             "link": "/tryharder_shop/index.html",
             "photos": [
                 {
-                    "src": "/images/works/shop1.png",
+                    "src": "/images/works/tryharder/shop1.png",
                     "altText": "Unity Virtual Shop"
                 },
                 {
-                    "src": "/images/works/shop2.png",
+                    "src": "/images/works/tryharder/shop2.png",
                     "altText": "Unity Virtual Shop"
                 },
                 {
-                    "src": "/images/works/shop3.png",
+                    "src": "/images/works/tryharder/shop3.png",
                     "altText": "Unity Virtual Shop"
                 }
             ]
         },
         {
             "title": "Tap Surfers",
-            "iconURL": "https://i.ibb.co/0ysTPf3/Icon512.jpg",
+            "iconURL": "/images/works/surfers/icon512.jpg",
             "description": "Juego WEBGL y para Android, la idea era hacer un juego ultra-casual en el menor tiempo posible.",
             "link": "/circles/index.html",
             "photos": [
                 {
-                    "src": "https://i.ibb.co/k6yv4D1/00.png",
+                    "src": "/images/works/surfers/00.png",
                     "altText": "Tap Surfers game play"
                 },
                 {
-                    "src": "https://i.ibb.co/LhBgdhf/02.png",
+                    "src": "/images/works/surfers/01.png",
                     "altText": "Tap Surfers collect coins"
                 },
                 {
-                    "src": "https://i.ibb.co/0sdz8by/01.png",
+                    "src": "/images/works/surfers/02.png",
                     "altText": "Tap Surfers dodge bullets"
                 }
             ]
         },
         {
             "title": "Cyber Invader",
-            "iconURL": "https://i.ibb.co/cJX4Kw2/Boss-Lucifer.png",
+            "iconURL": "/images/works/invaders/Boss-Lucifer.png",
             "description": "Juego WEBGL tipo shoot'em up al más puro estilo retro, consigue puntos destruyendo las naves enemigas, sobrevive los 5 niveles y derrota al jefe final. ¡Escribe tu nickname y deja tu huella en el top!",
             "link": "/galaga/index.html",
             "photos": [
                 {
-                    "src": "https://i.ibb.co/GHK0k9N/captura-1.png",
+                    "src": "/images/works/invaders/captura-1.png",
                     "altText": "Cyber Invader game"
                 },
                 {
-                    "src": "https://i.ibb.co/6RdHFSD/captura-2.png",
+                    "src": "/images/works/invaders/captura-2.png",
                     "altText": "Cyber Invader game"
                 },
                 {
-                    "src": "https://i.ibb.co/pzLg0tK/captura-3.png",
+                    "src": "/images/works/invaders/captura-3.png",
                     "altText": "Cyber Invader game"
                 }
             ]
         },
         {
             "title": "Evolution",
-            "iconURL": "https://i.ibb.co/tP9yH0W/Evo.png",
+            "iconURL": "/images/works/evolution/Evo.png",
             "description": "Juego para Android, crea y evoluciona tu monstruo y combate online por turnos (Firebase).",
             "link": "https://drive.google.com/file/d/1DhBZ7DeWVILBx6DwM3Z4Va3ECHmbYkzY/view?usp=sharing",
             "photos": [
                 {
-                    "src": "https://i.ibb.co/xFzrytD/3.png",
+                    "src": "/images/works/evolution/3.png",
                     "altText": "Evolution game"
                 },
                 {
-                    "src": "https://i.ibb.co/M6yqp11/6.png",
+                    "src": "/images/works/evolution/6.png",
                     "altText": "Evolution game"
                 }
             ]
         },
         {
             "title": "Cricket Arcade",
-            "iconURL": "https://i.ibb.co/KmGDzSF/Cricket.png",
+            "iconURL": "/images/works/cricket/Cricket.png",
             "description": "Juego simple para pasar el rato descremándote bateando bolas y reventándo dianas.",
             "link": "https://play.google.com/store/apps/details?id=com.EternalGames.HydeBall",
             "photos": [
                 {
-                    "src": "https://i.ibb.co/t2j6rwj/2.png",
+                    "src": "/images/works/cricket/2.png",
                     "altText": "Cricket Arcade Captura"
                 },
                 {
-                    "src": "https://i.ibb.co/7YTX5jN/unnamed.png",
+                    "src": "/images/works/cricket/unnamed.png",
                     "altText": "Cricket Arcade Captura"
                 },
                 {
-                    "src": "https://i.ibb.co/b7m88XB/unnamed.png",
+                    "src": "/images/works/cricket/unnamed2.png",
                     "altText": "Cricket Arcade Captura"
                 }
             ]
         },
         {
             "title": "Kraken vs Bird",
-            "iconURL": "https://i.ibb.co/VgDXBfP/Kraken-Ico.png",
+            "iconURL": "/images/works/kraken/Kraken-Ico.png",
             "description": "Juego multiplataforma online (Photon). Juega online con hasta 8 personas a la vez y toma el control del Kraken.",
             "link": "https://apkpure.com/es/kraken-vs-bird/com.EternalGames.kraken",
             "photos": [
                 {
-                    "src": "https://i.ibb.co/wh9zqNR/unnamed.png",
+                    "src": "/images/works/kraken/unnamed.png",
                     "altText": "Kraken vs Bird Online"
                 },
                 {
-                    "src": "https://i.ibb.co/1f0WVVX/unnamed2.png",
+                    "src": "/images/works/kraken/unnamed2.png",
                     "altText": "Kraken vs Bird Online"
                 }
             ]
         },
         {
             "title": "Impossible BipolarBall",
-            "iconURL": "https://i.ibb.co/RTwm5PS/Bipolar.png",
+            "iconURL": "/images/works/bipolar/Bipolar.png",
             "description": "Alterna el color para atravesar obstáculos.",
             "link": "https://apkpure.com/es/impossible-bipolarball/com.EternalGames.ImpossibleBipolarBall",
             "photos": [
                 {
-                    "src": "https://i.ibb.co/kgV4dkd/8.png",
+                    "src": "/images/works/bipolar/8.png",
                     "altText": "BipolarBall level2"
                 },
                 {
-                    "src": "https://i.ibb.co/3TfQ0hW/9.png",
+                    "src": "/images/works/bipolar/9.png",
                     "altText": "BipolarBall last level"
                 }
             ]
         },
         {
             "title": "El Misterio de la Oscuridad",
-            "iconURL": "https://i.ibb.co/HKP9MWc/MoIco.png",
+            "iconURL": "/images/works/oscuridad/Moico.png",
             "description": "Ahí afuera acechan muchos peligros, ¿podrás lidiar con ellos? \n El Misterio de la Oscuridad es un juego de terror de mundo abierto, donde se esconden innumerables secretos. ¿Podrás encontrarlos todos?",
             "link": "https://www.facebook.com/elmisteriodelaoscuridad",
             "photos": [
                 {
-                    "src": "https://i.ibb.co/2tMbWBC/15732668-1216018278480050-1964737736489139844-o.png",
+                    "src": "/images/works/oscuridad/1.png",
                     "altText": "MO Remake"
                 },
                 {
-                    "src": "https://i.ibb.co/sjPCkTH/puente.png",
+                    "src": "/images/works/oscuridad/puente.png",
                     "altText": "MO Puente Grande"
                 }
             ]
