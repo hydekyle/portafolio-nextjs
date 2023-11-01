@@ -101,12 +101,22 @@ const Home = () => (
           Experiencia Laboral
         </Heading>
         <BioSection>
+          <BioYear>2024</BioYear>
+          <b>Devest Solutions (3 meses)</b><br/>
+          <b>Flutter Developer</b><br/>
+          <Paragraph>
+          Desarrollo e integración de nuevas características para una aplicación multiplataforma en Flutter (iOS/Android & Web).
+          Arquitectura Bloc.
+          Test de integración y E2E.
+          </Paragraph>
+        </BioSection>
+        <BioSection>
           <BioYear>2023</BioYear>
           <b>Velocitech (1 año y 4 meses)</b><br/>
           <b>Unity Senior Developer & Flutter Developer</b><br/>
           <Paragraph>
           Gestión y creación de múltiples proyectos en Unity creando entornos 3D interactivos para museos y tiendas virtuales en WebGL.
-          También participé con el equipo de Flutter durante unos meses, principalmente para integrar responsive design.
+          También participé en el desarrollo de una app en Flutter como Front-end.
           </Paragraph>
         </BioSection>
         <BioSection>
@@ -116,6 +126,7 @@ const Home = () => (
           <Paragraph>
           Aplicación para IOS y Android nativa, consulta el precio de la luz en un vistazo con un diseño simple y responsivo.
           Utiliza arquitectura MVC+s, reactividad con GetX y gráficos de FLChart.
+          Es un proyecto personal de una semana para practicar buenas prácticas de código.
           </Paragraph>
         </BioSection>
         <BioSection>
