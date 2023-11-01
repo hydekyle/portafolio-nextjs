@@ -22,7 +22,7 @@
         },
         {
             "title": "Tap Surfers",
-            "iconURL": "/images/works/surfers/icon512.jpg",
+            "iconURL": "/images/works/surfers/Icon512.jpg",
             "description": "Juego WEBGL y para Android, la idea era hacer un juego ultra-casual en el menor tiempo posible.",
             "link": "/circles/index.html",
             "photos": [
@@ -130,7 +130,7 @@
         },
         {
             "title": "El Misterio de la Oscuridad",
-            "iconURL": "/images/works/oscuridad/Moico.png",
+            "iconURL": "/images/works/oscuridad/MoIco.png",
             "description": "Ahí afuera acechan muchos peligros, ¿podrás lidiar con ellos? \n El Misterio de la Oscuridad es un juego de terror de mundo abierto, donde se esconden innumerables secretos. ¿Podrás encontrarlos todos?",
             "link": "https://www.facebook.com/elmisteriodelaoscuridad",
             "photos": [
