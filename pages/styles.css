@@ -1,3 +1,7 @@
 b {
     color: teal;
 }
+
+.voxel-dog canvas {
+    padding: 33px 55px;
+}

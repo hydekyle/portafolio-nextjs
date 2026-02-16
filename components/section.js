@@ -15,6 +15,7 @@ const Section = ({ children, delay = 0 }) => (
     mb={6}
   >
     {children}
+    <br/>
   </StyledDiv>
 )
 

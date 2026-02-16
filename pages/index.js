@@ -69,14 +69,27 @@ const Home = () => (
           Sobre mí
         </Heading>
         <Paragraph>
-          Me apasiona el desarrollo de software desde que me propuse crear mi primer videojuego con 13 años.
-          Desde entonces he estado probando distintas tecnologías y afrontando proyectos personales a modo de reto
-          y pasatiempos.<br/><br/>
-          Me especializo en <b>Unity3D</b> y <b>Flutter</b>.
-          En cuanto a desarrollo web, me manejo con soltura con <b>Wordpress</b> y <b>React</b>.<br/>
-          Trabajo principalmente como <b>Freelancer</b> y en mi tiempo libre estoy desarrollando un videojuego
-          para Realidad Virtual.<br/>
-          También tengo capacidades para la creación y post-producción de contenido audiovisual con herramientas <b>Adobe</b>.
+          Me apasiona el <b>desarrollo de software </b>
+          desde que me propuse crear mi primer
+          videojuego con 13 años. Desde entonces
+          he estado probando distintas tecnologías
+          y afrontando proyectos personales.<br/><br/>
+          Trabajé de <kbd>Freelance</kbd> durante un largo
+          periodo de tiempo y estos últimos años
+          he estado en diferentes empresas a
+          tiempo completo.<br/><br/>
+          Me especializo en <b>Unity3D</b>, <b>.NET</b> y <b>Flutter</b>,
+          también manejo <b>Wordpress</b> y <b>React</b>.
+          Siempre estoy abierto a seguir
+          aprendiendo nuevas tecnologías. <br/><br/>
+          También tengo capacidades para la creación y <b>post-producción</b> de contenido audiovisual con herramientas <b>Adobe</b>. <br/><br/>
+          Como desarrollador, siempre tengo un
+          ojo analizando para optimizar y automatizar
+          procesos que puedan restar tiempo de
+          desarrollo. <br/><br/>
+          Como persona siempre busco transmitir
+          mi <b>positividad</b> y <b>sentido del humor</b> a los
+          compañeros.
         </Paragraph>
       </Section>
 
@@ -100,6 +113,16 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Experiencia Laboral
         </Heading>
+        <BioSection>
+          <BioYear>2025</BioYear>
+          <b>Noray (9 meses)</b><br/>
+          <b>Full-Stack Developer</b><br/>
+          <Paragraph>
+          Desarrollo y mantenimiento de backend (.NET) y front-end (Bussiness Central).
+          Implementación de nuevas funcionalidades y correcciones de bugs.
+          Dockerizar entornos, CI/CD y herramientas de depuración para entorno de desarrollo.
+          </Paragraph>
+        </BioSection>
         <BioSection>
           <BioYear>2024</BioYear>
           <b>Devest Solutions (3 meses)</b><br/>

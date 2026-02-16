@@ -107,8 +107,8 @@ const VoxelDog = () => {
       }
 
       return () => {
-        console.log('unmount')
         cancelAnimationFrame(req)
+        renderer.domElement.remove()
         renderer.dispose()
       }
     }

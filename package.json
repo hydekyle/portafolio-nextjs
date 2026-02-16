@@ -1,7 +1,10 @@
 {
   "name": "ayozemanuel-homepage",
-  "version": "1.0.0",
-  "description": "Ayoze portafolios con Nextjs",
+  "version": "1.1.0",
+  "description": "Ayoze M. Portafolio web Nextjs",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
